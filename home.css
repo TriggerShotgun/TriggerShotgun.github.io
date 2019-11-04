@@ -7,6 +7,7 @@ header{
     display: flex;
     justify-content: flex-end;
     height: 75px;
+    border: white solid 3px;
 }
 
 nav{
@@ -29,9 +30,7 @@ nav ul li button{
     font-family: Comic Sans MS;
     font-size: 15px;
 }
-main{
-    height: 700px;
-}
+
 footer{
     background-color: black;
     border: white solid 3px;
@@ -44,6 +43,7 @@ footer{
     line-height: 50px;
 }
 main {
+    height: 900px;
     display: flex;
     align-items: center;
     justify-content: center;
