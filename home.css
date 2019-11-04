@@ -31,7 +31,6 @@ nav ul li button{
 }
 main{
     height: 700px;
-
 }
 footer{
     background-color: black;
@@ -54,8 +53,14 @@ main h1{
     font-size: 50px;
     font-family: 'Jomolhari', serif;
 }
-main h2{
-    font-family: 'Times New Roman', Times, serif;
+div{
+    font-family: 'Press Start 2P', cursive;
+    width: 390px;
+    font-size: 18px;
+    border: white solid 3px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
 }
 a{
     text-decoration: none;
