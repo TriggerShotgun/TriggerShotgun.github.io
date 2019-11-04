@@ -31,4 +31,22 @@ nav ul li button{
     font-family: Comic Sans MS;
     font-size: 15px;
 }
-
+main{
+    border: black solid 3px;
+    height: 700px;
+    border: solid white 3px;
+}
+footer{
+    background-color: black;
+    border: white solid 3px;
+    height: 200px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}

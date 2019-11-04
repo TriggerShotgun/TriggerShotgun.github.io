@@ -1,3 +1,6 @@
+body{ 
+    background: linear-gradient(90deg, blue, #f7621c, red);
+}
 header{
     color: white;
     background-color: black;
