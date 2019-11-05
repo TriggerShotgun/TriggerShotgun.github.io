@@ -68,3 +68,22 @@ a{
     text-decoration: none;
     color: white;
 }
+.progress-bar{
+    background-color: white;
+    color: black;
+    border: red solid 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.progress{
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    margin-left: 50px;
+}
