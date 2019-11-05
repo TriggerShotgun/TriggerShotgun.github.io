@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/contact.css">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Jomolhari&display=swap" rel="stylesheet"> 
-    <title>Home</title>
+    <title>Contact</title>
 </head>
 <body>
     <header>
@@ -23,8 +23,33 @@
         </nav>
     </header>
     <main>
-     
+        <div class="container">
+            Contact informatie:
+            Naam: Roan Lindeboom
+            E-mail: roan.lindeboom@student-rocva.nl
+            telefoon: 06-23439823
+        </div>
+        <div class="form">
+            <form>
+                <label for="fname">Eerste Naam</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.">
 
+                <label for="lname">Laatste Naam</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.">
+               
+                <label for="Continent">Continent</label>
+                <select id="Continent" name="Continent">
+                    <option value="Azië">Azië</option>
+                    <option value="Amerika">Amerika</option>
+                    <option value="Europa">Europa</option>
+                </select>
+
+                <label for="subject">Onderwerp</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </main>
     <footer>
        Mijn accounts

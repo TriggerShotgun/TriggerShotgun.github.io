@@ -32,3 +32,38 @@ nav ul li button{
     font-size: 15px;
 
 }
+footer{
+    background-color: black;
+    border: white solid 3px;
+    height: 200px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+}
+main {
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main h1{
+    font-size: 50px;
+    font-family: 'Jomolhari', serif;
+}
+div{
+    font-family: 'Press Start 2P', cursive;
+    width: 390px;
+    font-size: 18px;
+    border: white solid 3px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
