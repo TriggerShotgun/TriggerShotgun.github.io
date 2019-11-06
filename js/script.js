@@ -11,11 +11,20 @@ function like(){
     document.getElementById("up").style.width = "200px";
     document.getElementById("up").style.height = "100px";
     document.getElementById("up").style.backgroundColor = "green";
+
+    document.getElementById("down").style.width = "115px";
+    document.getElementById("down").style.height = "50px";
+    document.getElementById("down").style.backgroundColor = "black"; 
 }
 function dislike(){
     document.getElementById("down").style.width = "200px";
     document.getElementById("down").style.height = "100px";
     document.getElementById("down").style.backgroundColor = "red";  
+
+    document.getElementById("up").style.width = "115px";
+    document.getElementById("up").style.height = "50px";
+    document.getElementById("up").style.backgroundColor = "black";
+
 }
 
   
