@@ -42,7 +42,7 @@ function next() {
             document.getElementById("anime").src = "image/Codes.jpg";
             break;
         case 2:
-
+            teller = -1;
             document.getElementById("anime").src = "image/IMG-20181004-WA0007.jpg";
             break;
         default:
