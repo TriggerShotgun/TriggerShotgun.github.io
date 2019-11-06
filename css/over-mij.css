@@ -16,6 +16,7 @@ nav{
 nav ul {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
 }
 
 nav ul li{
@@ -69,14 +70,23 @@ a{
     text-decoration: none;
     color: white;
 }
+#accounts{
+    height: 195px;
+}
+
+#date{
+    height: 195px;
+}
 
 #like{
     width: 600px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-  }
-  footer button{
+    height: 195px;
+}
+
+footer button{
     background-color: black;
     border: white solid 3px;
     height: 50px;
